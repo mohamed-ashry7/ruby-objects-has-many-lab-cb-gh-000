@@ -5,4 +5,5 @@ class Song
   def initialize (name )
     self.name = name
   end
-  def aut
+  def artist_name
+    self.artist.name
