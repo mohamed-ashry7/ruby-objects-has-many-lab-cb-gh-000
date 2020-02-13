@@ -2,13 +2,13 @@
 
 class Author
 
-  attr_accessor :name ,:songs
+  attr_accessor :name ,:posts
   def initialize(name)
     @name = name
-    songs = []
+    posts = []
   end
-  def add_song_by_name(song_name)
-    song = Song.new(song_name)
+  def add_post_by_title(post_title)
+    song = Post.new(post_title)
     song.artist=self
     self.songs << song
   end
