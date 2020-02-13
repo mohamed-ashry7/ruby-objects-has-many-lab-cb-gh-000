@@ -8,8 +8,8 @@ class Author
     @posts = []
   end
 
-  def add_post_by_name(post_name)
-    post = post.new(post_name)
+  def add_post_by_title(post_title)
+    post = post.new(post_title)
     post.author=self
   end
 
