@@ -14,6 +14,6 @@ class Song
     @@all_songs
   end
   def self.all_songs
-    @@all_songs
+    @@all_songs.size 
   end
 end
