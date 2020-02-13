@@ -2,19 +2,19 @@
 
 class Post
   attr_accessor :author , :title
-  @@all_posts = []
+  @@all = []
   def initialize (title )
     self.title = title
-    @@all_posts << self
+    @@all << self
   end
   def author_title
     self.author.title if author
   end
 
   def self.all
-    @@all_posts
+    @@all
   end
-  def self.all_posts
-    @@all_posts
+  def self.all
+    @@all
   end
 end
