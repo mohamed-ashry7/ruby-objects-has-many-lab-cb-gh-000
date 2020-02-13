@@ -7,11 +7,14 @@ class Post
     self.title = title
     @@all_posts << self
   end
-  def artist_name
-    self.author.name if author
-  end
-  def self.post_count
-    @@all_posts
+  def author_title
+    self.author.title if author
   end
 
+  def self.all
+    @@all_posts
+  end
+  def self.all_posts
+    @@all_posts
+  end
 end
