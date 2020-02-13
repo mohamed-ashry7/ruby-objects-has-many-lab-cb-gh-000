@@ -5,7 +5,7 @@ class Song
   @@all_songs = []
   def initialize (name )
     self.name = name
-    @@all_songs << self 
+    @@all_songs << self
   end
   def artist_name
     self.artist.name if artist
