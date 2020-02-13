@@ -10,8 +10,8 @@ class Post
   def artist_name
     self.author.name if author
   end
-  def self.song_count
-    @@all_songs
+  def self.post_count
+    @@all_posts
   end
 
 end
