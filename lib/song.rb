@@ -11,9 +11,9 @@ class Song
     self.artist.name if artist
   end
   def self.song_count
-    @@all_songs
+    @@all_songs.size
   end
   def self.all_songs
-    @@all_songs.size 
+    @@all_songs
   end
 end
