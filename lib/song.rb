@@ -11,7 +11,7 @@ class Song
     self.artist.name if artist
   end
   def self.song_count
-
+    @@all_songs
   end
 
 end
