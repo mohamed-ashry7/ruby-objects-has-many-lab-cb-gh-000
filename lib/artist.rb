@@ -1,7 +1,7 @@
 
 
-class Artist 
+class Artist
 
   attr_accessor :name ,
-  @@all_songs = [] 
+  @@all_songs = []
 end
