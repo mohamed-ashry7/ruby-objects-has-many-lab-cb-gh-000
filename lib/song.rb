@@ -15,4 +15,5 @@ class Song
   end
   def self.all_songs
     @@all_songs
+  end
 end
