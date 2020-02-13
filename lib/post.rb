@@ -1,7 +1,7 @@
 
 
 class Post
-  attr_accessor :author , :name
+  attr_accessor :author , :title
   @@all_songs = []
   def initialize (name )
     self.name = name
