@@ -8,8 +8,8 @@ class Author
     posts = []
   end
   def add_post_by_title(post_title)
-    song = Post.new(post_title)
-    song.artist=self
-    self.songs << song
+    post = Post.new(post_title)
+    post.author=self
+    self.posts << post
   end
 end
