@@ -8,3 +8,4 @@ class Song
   def artist_name
     self.artist.name if artist
   end
+end
